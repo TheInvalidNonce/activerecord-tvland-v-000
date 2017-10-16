@@ -1,4 +1,4 @@
 class Show < ActiveRecord::Base
-  belongs_to :actor
-  has_many :character
+  belongs_to :network
+  has_many :characters
 end
